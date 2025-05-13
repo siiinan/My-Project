@@ -1,0 +1,55 @@
+.imageIconsRegister {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-right: 10px;
+  position: absolute;
+  margin: 10px 0 0 -40px;
+  cursor: pointer;
+}
+
+.imageFormRegister {
+  border-radius: 0 5px 5px 0;
+  width: 300px;
+  height: 700px;
+  position: relative;
+}
+
+.setinngsButton {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.signLogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signLogo3 {
+  padding-top: 12px;
+}
+
+.facebook,
+.twitter,
+.google {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #00acee;
+}
+
+.google {
+  background-color: #ea4335;
+}

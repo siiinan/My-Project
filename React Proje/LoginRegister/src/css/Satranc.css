@@ -1,0 +1,99 @@
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgb(173, 173, 173);
+  flex-direction: column;
+}
+
+.Tahta {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.siyahKare,
+.beyazKare {
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.siyahKare {
+  background-color: black;
+}
+
+.beyazKare {
+  background-color: white;
+}
+
+.SatrancYaziBasligi {
+  font-size: 30px;
+  margin-top: -45px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.exitIcons {
+  width: 100px;
+  height: 50px;
+  margin-top: -30px;
+  margin-left: -42vh;
+  cursor: pointer;
+  color: black;
+}
+
+.YardimButton {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+}
+
+li {
+  color: black;
+  font-size: 20px;
+}
+
+.settings-overlay {
+  position: absolute;
+  border-radius: 5px;
+  top: 22%;
+  left: 37%;
+  background: rgb(255, 255, 255);
+  width: 580px;
+  height: 580px;
+  animation: grow 0.8s ease forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.settings-content {
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
